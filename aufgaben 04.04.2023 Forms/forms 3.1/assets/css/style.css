@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --main-color: rgb(89, 141, 173);
+    --border-color:rgb(205, 205, 188);
+    --background-color:  rgb(206, 202, 202);
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20rem 20rem;
+}
+
+form{
+    border-radius: 10px;
+    border: 5px solid var(--border-color);
+    width: 34rem;
+    height: 73rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;    
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: var(--border-color);
+    padding: 2rem 2rem 3rem 2rem;
+    width: 29rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1rem 0 0 1.5rem;
+    line-height: 3rem;
+}
+
+p{
+    margin-left: 1.6rem;
+    font-size: 1.1rem;
+}
+
+h2{
+    color:  rgb(89, 141, 173);
+    margin-bottom: 0.4rem;
+}
+
+.header{
+    margin-bottom: 1rem;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="confirm"]{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 2px 3px rgb(147, 146, 146) inset;
+    border: 1px solid red;
+}
+
+
+label{
+    font-size: 1.2rem;
+    margin-left: 0.2rem;
+}
+
+input[type="submit"]{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin: 0rem 4.7rem 1rem 2rem;
+    
+    
+}
+
+label[for="checkbox"]{
+    font-size: 0.9rem;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(134, 109, 215);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="confirm"]:focus{
+    border: 1px solid rgb(36, 101, 157);
+    
+}
+
+input[type="submit"]:active{
+    border: 4px solid rgba(78, 63, 212, 0.444);
+    
+}
+
+
+/* Numbers */
+
+h2::before{
+    padding: 1px 6px;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    margin: 0 9px 0 -9px;
+    
+}
+
+h2:nth-of-type(1):before{
+    content: "1";
+}
+
+h2:nth-of-type(2):before{
+    content: "2";
+}
+
+h2:nth-of-type(3):before{
+    content: "3";
+}

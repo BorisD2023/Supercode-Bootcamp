@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms 1.1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+    <form>
+        <p>Name<span>*</span></p>
+        <section>
+            <label for="name"></label>
+            <input required placeholder="Vorname" id="name" type="text">
+            <input required placeholder="Nachname" id="name" type="text">
+        </section>
+        <label for="email">Email<span>*</span></label>
+        <input required id="email" type="email">
+        <label for="thema">Thema</label>
+        <select id="thema">
+            <option value="General">General</option>
+            <option value="Advertise">Advertise</option>
+            <option value="Partnership">Partnership</option>
+        </select>
+        <label for="textarea">Nachricht<span>*</span></label>
+        <textarea required id="textarea" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</main>
+</body>
+</html>

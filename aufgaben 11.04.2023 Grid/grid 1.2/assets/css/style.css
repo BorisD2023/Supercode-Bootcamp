@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 5rem 5rem;
+}
+
+div{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.red{
+    background-color: red;
+    grid-column: 1 /span 2;
+}
+
+.blue{
+    background-color: blue;
+    grid-column: 3 / 6;
+}
+
+.green{
+    background-color: green;
+    grid-column: 1/2;
+}
+
+.violet{
+    background-color: rgb(134, 20, 134);
+    grid-column: 2/6 ;
+}
+
+.yellow{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}

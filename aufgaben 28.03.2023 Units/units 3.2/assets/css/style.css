@@ -1,0 +1,76 @@
+@font-face {
+    font-family: quick ;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    text-align: center;
+    font-family: quick;
+    
+}
+
+main{
+    background-image: url(../img/jakub-kriz-arOyDPUAJzc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+header nav a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(109, 106, 106, 0.323);
+    font-style: italic;
+}
+
+header nav a:hover{
+    color: gray;
+}
+
+h1{
+    font-size: 25rem;
+    color: rgba(255, 255, 255, 0.339);
+    margin-top: 15vh;
+}
+
+h2{
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.545);
+}
+
+p{
+    font-size: 2rem;
+    margin-top: 2vh;
+    color: rgba(255, 255, 255, 0.545);
+    margin-bottom: 30vh;
+}
+
+footer{
+    padding-top: 70px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.101);
+    font-size: 1.5rem;
+    background-color: rgba(243, 239, 239, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.328);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 10px 20px;  
+}
+
+footer a:hover{
+    border-radius: 3px;
+    background-color: rgba(243, 239, 239, 0.309);
+    border: 1px solid rgba(255, 255, 255, 0.313);
+    color: rgba(255, 255, 255, 0.566);
+}

@@ -1,0 +1,76 @@
+@font-face {
+    font-family: cinzel;
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: shadows;
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+}
+h1 {
+    font-family: shadows, Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-shadow: 4px 4px red;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+    
+}
+h2 {
+    font-family: pacifico;
+    background-color: lightgreen;
+    word-spacing: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+p {
+    font-family: lato, Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+}
+strong {
+    color: yellow;
+    word-spacing: 2px;
+}
+em {
+    color: red;
+    word-spacing: 3px;
+}
+h3 {
+    font-family: shadows, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    }
+ol li {
+    font-family: cinzel, Arial, Helvetica, sans-serif;
+    color: crimson;
+    line-height: 35px;
+    
+}
+h4 {
+    font-family: pacifico, Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    text-shadow: -2px 3px gray;
+    word-spacing: 5px;
+    text-align: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+h5 {
+    font-family: cinzel,Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ul {
+    background-color: lightgray;
+}
+ul >li {
+    line-height: 40px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms 2.3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+ <form>
+    <fieldset>
+      <legend>Register form</legend>
+      <table>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td class="padding"><input id="name" placeholder=" Name" type="text"></td>
+        </tr>
+        <tr>
+          <td><label for="surname">Name</label></td>
+          <td class="padding"><input id="surname" placeholder=" Surname" type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td class="padding"><input id="email" placeholder=" Email" type="email"></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+        <td>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </td>
+        </tr>
+        <tr>
+          <td><label for="file">Picture</label></td>
+          <td><input id="file" type="file"></td>
+        </tr>
+        <tr>
+          <td><label>Country</label></td>
+            <td>
+                <select class="country">
+                    <option>Germany</option>
+                    <option>Spain</option>
+                    <option>France</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="its">
+          <td><label>Preferred languages</label></td>
+          <td><select multiple="multiple">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>         
+            <option>React</option>         
+            <option>other</option>        
+          </select><label>(To choose more than one use cmd key)</label></td>
+        </tr>
+        <tr>
+          <td><label>Field of activity</label></td>
+          <td>
+              <input type="checkbox" id="checkbox"><label for="checkbox">IT</label>
+              <input type="checkbox" id="checkbox"><label for="checkbox">Design</label>
+              <input type="checkbox" id="checkbox"><label for="checkbox">Other</label>  
+        </td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+        </tr>
+      </table>
+      <section>
+        <input type="submit" value="Send">
+        <input type="reset" value="Cancel">
+     </section>
+    </fieldset>
+  </form>
+
+</body>
+</html>

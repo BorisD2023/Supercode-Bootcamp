@@ -1,0 +1,17 @@
+div {
+    background-color: rgb(77, 212, 224);
+}
+nav {
+    background-color: gray;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+
+span {
+    color: red;
+}

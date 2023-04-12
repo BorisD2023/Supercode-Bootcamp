@@ -1,0 +1,204 @@
+@font-face {
+    font-family: clicker;
+    src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: playfair, Arial, Helvetica, sans-serif;
+}
+  
+:root{
+    --main-color: #f9c06a;
+    --head-color: #603809;
+    --text-color: #707070;
+    --black: #000;
+    --white: #fff;
+    --padding-out: 0 6rem;
+}
+
+img{
+    max-width: 100%;
+}
+  
+.btn{
+    background-color: var(--main-color);
+    padding: 1rem 2.2rem;
+    border-radius: 3rem;
+    color: var(--black);
+    margin: 2rem 0;
+    display: inline-block;
+}
+  
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+h1{
+    font-family: clicker, Arial, Helvetica, sans-serif;
+    font-size: 22rem;
+    margin: 0 0 1.5rem 0;
+}
+  
+h2{
+    font-size: 5.4rem;
+    margin: 0 0 1.5rem 0;
+}
+  
+h3{
+    font-size: 2.8rem;
+    margin: 0 0 1.5rem 0;
+}
+
+h4{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+h2, h3{
+    color: var(--head-color);
+}
+  
+  
+/* Header */
+  
+header{
+    min-height: 100vh;
+    color: var(--white);
+    background: linear-gradient(300deg,
+        rgba(121, 68, 37, 0.303),
+        rgba(80, 39, 15, 0.303)),url("../img/coffee-img1.png") no-repeat center;
+    background-size: cover;
+}
+  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+header nav a{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 0 2vw;
+}
+  
+header section{
+    max-width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50rem;
+    margin: var(--padding-out);
+}
+  
+  /* Coffe cup */
+  
+.coffee-cup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: var(--padding-out);
+    height: 30rem;
+}
+
+.coffee-cup article{
+    max-width: 50vw;
+}
+  
+.coffee-cup img{
+    max-width: 30rem;
+}
+  
+.splash{
+    width: 34rem;
+    margin: 4.5rem 0 0 0;
+}
+
+/* difference */
+
+.difference{
+    text-align: center;
+    margin: var(--padding-out);
+}
+
+.difference p{
+    margin: 0 0 3.5rem 0;
+}
+  
+.difference article{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0 0 1.5rem 0;
+}
+  
+.difference article div{
+    padding: 2rem 5rem;
+    width: 32rem;
+}
+  
+.difference img{
+    max-width: 4rem;
+    margin: 1.5rem 0;
+}
+  
+.difference article div:nth-of-type(1){
+    background-color: rgba(223, 148, 56, 0.203);
+}
+
+.difference article div:nth-of-type(2){
+    background-color: rgba(223, 148, 56, 0.492);
+}
+
+.difference article div:nth-of-type(3){
+    background-color: rgba(223, 148, 56, 0.173);
+}
+
+.difference article div:nth-of-type(4) {
+    background-color: rgba(223, 148, 56, 0.216);
+}
+  
+/* coffee to go */
+  
+.coffee-togo{
+    color: var(--white);
+    background: linear-gradient(300deg,
+        rgba(136, 109, 55, 0.649),
+        rgba(82, 55, 18, 0.546)),
+      url("../img/coffee-img2.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-out);
+    min-height: 90vh;
+}
+  
+.coffee-togo h2{
+    color: var(--white);
+}
+  
+.coffee-togo article{
+    max-width: 45vw;
+}

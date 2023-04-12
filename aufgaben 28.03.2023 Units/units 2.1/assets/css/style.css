@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 83vh;
+    
+}
+hr{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 0.2vw;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+p{
+    line-height: 2.5rem;
+}
+ul{
+    padding-inline-start: 1.2em;
+    
+}
+section ul{
+    list-style: none;
+}
+li{
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+/* .dog{
+    font-size: 0.8em;
+}
+.cat{
+    font-size: 0.8em;
+}
+.lizzard{
+    font-size: 0.8em;
+}
+.parrot{
+    font-size: 0.8em;
+}
+.snake{
+    font-size: 0.8em;
+} */
+section{
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dog li::before{
+    content: "🐶";
+}
+.cat li::before{
+    content: "🐱";
+}
+.parrot li::before{
+    content: "🦜";
+}
+.snake li::before{
+    content: "🐍";
+}
+.lizzard li::before{
+    content: "🦎";
+}
+
+

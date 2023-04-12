@@ -1,0 +1,40 @@
+@font-face {
+    font-family: mont;
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    margin: 30px 50px;
+    width: 300px;
+    
+}
+ul li:nth-child(even){
+    text-decoration: underline;
+}
+ul li:nth-child(odd){
+    list-style-type: square ;
+}
+.farbe-form{
+    color: #311b92;
+    font-family: mont;
+}
+.farbe{
+    background-color: #fff176 ;
+}
+.form{
+    font-size: 1.6em;
+}
+ul li:nth-child(1){
+    color: #e53935;
+}
+.letter{
+    letter-spacing: 6px;
+}
+.color{
+    
+    background-color: #c21607;
+}

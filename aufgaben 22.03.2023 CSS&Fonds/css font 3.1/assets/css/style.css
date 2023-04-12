@@ -1,0 +1,32 @@
+h1 {
+    font-size: 48px;
+    background-color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+    }
+main {
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+    
+}
+section {
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+h2 {
+    word-spacing: 10px;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 1px black;
+    color: grey;
+    text-indent: 200px;
+}
+ul {
+    background-color: lightgray;
+}
+li > p {
+    background-color: gray;
+    text-indent: 60px;
+}

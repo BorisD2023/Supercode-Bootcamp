@@ -1,0 +1,133 @@
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+/* Header Styling */
+
+a{
+    text-decoration: none;
+    font-family: raleway;
+}
+
+.logo{
+    color: #666;
+    font-size: 3rem;
+}
+
+.logo:hover{
+    color: #333;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    color: #333;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+li a:hover{
+    color: #337ab7;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    height: 85px;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    background: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Main Styling */
+
+main{
+    font-family: raleway;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    font-size: 7rem;
+    font-weight: 300;
+    color: white;
+    width: 80rem;
+    text-align: center;
+    display: flex;
+    margin-top: 130px;
+
+}
+
+main p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(187, 186, 186);
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.download{
+    color: white;
+    margin: auto 10px;
+    border: 2px solid white;
+    padding: 20px 80px;
+    font-size: 2rem;
+}
+
+section{
+    display: flex;
+}
+
+.read-more{
+    padding: 20px 100px;
+    background-color: #745cf9;
+    border-color: #745cf9;
+    font-size: 2rem;
+    color: white;
+}
+
+.read-more:hover{ 
+    opacity: 0.6;
+    transition: 0.8s;
+}
+
+.download:hover{
+    color: black;
+    background-color: white;
+    transition: 0.8s;
+}
+

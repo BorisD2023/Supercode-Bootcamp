@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    height: 37vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+    font-size: 1.5rem;
+    
+}
+
+legend{
+    margin: 1rem 1rem;
+    color: rgb(104, 138, 35);
+}
+
+table{
+    width: 60rem;
+    
+}
+
+fieldset{
+    padding-left: 2rem;
+}
+label{
+    line-height: 2.2rem;
+    font-weight: 500;
+}
+
+.padding input{
+    padding: 0.5rem;
+    border: 1px solid rgb(177, 176, 176);
+}
+
+.country{
+    border-radius: 5px;
+    border-color: rgb(160, 160, 160);
+}
+
+input[type="file"]{
+    border: 1px solid rgb(157, 155, 155);
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.539);
+    
+}
+
+input[type="reset"]{
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.539);
+}
+

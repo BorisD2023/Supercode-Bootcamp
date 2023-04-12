@@ -1,0 +1,59 @@
+@font-face {
+    font-family: quick;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    background-color: white;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background: hsla(0, 3%, 7%, 0.446); 
+    color: white;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    
+}
+section{
+    background-image: url("../img/bild.jpg");
+    height: 99.9vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+} 
+p{
+    text-align: center;
+    font-size: 2em;
+    font-family: quick;
+    line-height: 2em;
+    color: black;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding: 30px;
+    
+}
+main{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 20px;
+    background: hsla(0, 14%, 82%, 0.246);
+    border-radius: 8px;
+}
+main p:nth-child(6){
+    padding-bottom: 100px;
+    font-size: 3em;
+}
+main p:nth-child(3){
+    font-size: 3em;
+}

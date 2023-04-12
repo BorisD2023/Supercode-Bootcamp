@@ -1,0 +1,58 @@
+*{
+    padding: 0
+    margin: 0
+    box.sizing: border-box;
+}
+/* index html startseite */
+.index-div{
+    width: 500px;
+    height: 700px;
+    background-image: url(#);
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 25px auto;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* index forest seite */
+main div:nth-child(1) {
+    width: 500px;
+    height: 700px;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+h1 {
+    text-align: center;
+}
+
+div:nth-child(2) {
+    border-radius: 20px;
+    padding: 50px 100px;
+
+}
+
+img {
+    width 100%;
+    border-radius: 20px;
+    box-shadow: 0px black; 
+}
+div:nth-child(3){
+    margin-left: 50px;
+}
+div:nth-child(4){
+    text-align: center;
+    margin-top: 30px;
+}
+

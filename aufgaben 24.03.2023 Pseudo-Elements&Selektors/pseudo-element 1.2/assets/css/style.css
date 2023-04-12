@@ -1,0 +1,62 @@
+@font-face {
+    font-family: mont;
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: mont, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+p::first-letter{
+    font-size: 40px;
+    color: #00bfff;
+}
+p{
+    text-align: left;
+    margin: 20px auto;
+    margin-left: 100px;
+    width: auto;
+    color: #483d8b;
+}
+
+p::first-line{
+    text-transform: uppercase;
+}
+h1{
+    font-size: 30px;
+    color: #2e8b57;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+h1::before{
+    content: "HI!";
+    color: #32cd32;
+    font-size: 30px;
+}
+h1::after{
+    content: "!";
+    color: #c71585;
+    font-size: 30px;
+}
+h2{
+    margin-left: 100px;
+    color: #2e8b57;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+h3{
+    margin-left: 100px;
+    color: #2e8b57;
+    font-weight: bold;
+    font-size: larger;
+}
+div{
+    margin-left: 100px;
+    font-weight: bold;
+}
+h3::selection{
+    background-color:  #a020f0;
+    color: #c71585;
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px;
+    margin: 5rem 5rem;
+    height: 100vh;
+}
+
+div{
+    border-radius: 10px;
+}
+
+.red{
+    background-color: red;
+    grid-area: 3/5/1/1;
+}
+
+.blue{
+    background-color: blue;
+    grid-area: 9/3/3/1
+    
+}
+
+.green{
+    background-color: green;
+    grid-area: 3/5/5/3;
+}
+
+.violet1{
+    background-color: rgb(134, 20, 134);
+    grid-area: 9/3/5/4;
+}
+
+.violet2{
+    background-color: rgb(134, 20, 134);
+    grid-area: 9/4/5/4;
+}

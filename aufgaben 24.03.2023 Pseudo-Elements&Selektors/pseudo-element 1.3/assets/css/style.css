@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    margin: 100px auto;
+}
+h1{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+li{
+    margin-left: 120px;
+}
+h1::first-letter{
+    font-size: 3em;
+    color: #00796b;
+}
+h1:hover::first-letter{
+    color: #4fc3f7;
+}
+section li{
+    font-weight: bold;
+    width: 300px;
+}
+.first{
+    text-decoration: line-through;
+}
+.first::marker{
+    content: url(../img/check.png);
+}
+.first::after{
+    content: url(../img/gym.png);
+}
+.second{
+    text-decoration: line-through;
+}
+.second::marker{
+    content: url(../img/check.png);
+}
+.second::after{
+    content: url(../img/bill.png);
+}
+.third{
+    background-color: aquamarine;
+}
+.third::marker{
+    content: url(../img/doing.png);
+}
+.third::after{
+    content: url(../img/dance.png);
+}
+.third{
+    background-color: aquamarine;
+}
+.fourth::marker{
+    content: url(../img/doing.png);
+}
+.fourth::after{
+    content: url(../img/eat.png);
+}
+.fourth{
+    background-color: aquamarine;
+}
+.fifth{
+    text-decoration: underline;
+}
+.fifth::marker{
+    content: url(../img/no.png);
+}
+.fifth::after{
+    content: url(../img/book.png);
+}
+.sixth{
+    text-decoration: underline;
+}
+.sixth::marker{
+    content: url(../img/no.png);
+}
+.sixth::after{
+    content: url(../img/organize.png);
+}

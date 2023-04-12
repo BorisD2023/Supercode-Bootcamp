@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Was ist Display Flex */
+/* Hilft uns beim ausrichten benachbarter Elemente */
+
+header{
+    height: 500px;
+    display: flex;
+    border: 2px solid black;
+
+    /* Horinzontale Ausrichtung */
+
+    /* default - Elemente werden zur startline gepackt */
+    /* justify-content: flex-start; */
+
+    /* Elemente werden rechtsbündig ausgerichtet */
+    /* justify-content: flex-end; */
+
+    /* Elemente werden mittig ausgerichtet */
+    justify-content: center;
+
+    /* Elemente werden gleichmässig in der Zeile mit gleichem Abstand um sie herum verteilt */
+    /* justify-content: space-around; */
+
+    /* Das letzte und erste element rücken ans Ende */
+    /* justify-content: space-between; */
+
+    /* Der Abstand der Elemente ist zu allen Seiten gleich  */
+    justify-content: space-evenly;
+
+    /* default */
+    /* align-items: flex-start; */
+   
+    /* Elemente wird zum unteren Querlinie ausgerichtet */
+    /* align-items: flex-end; */
+
+    /* Elemente werden in der Querachse zentriert */
+    /* align-items: center; */
+
+    /* Elemente werden an der Grundlinie ausgerichtet */
+    /* align-items: baseline; */
+
+    /* default - die Zeilen werden am Anfang des Containers ausgerichtet */
+    /* align-content: start; */
+    flex-wrap: wrap;
+    
+    /* default - Inhalt wird an der obersten stelle ausgerichtet */
+    /* align-content: start; */
+    
+    /* align-items: center; */
+
+    /* Inhalt wird an der untersten stelle ausgerichtet */
+    /* align-content: end; */
+
+    /* align-content: space-between; */
+
+
+}
+
+header section{
+    width: 300px;
+}
+.text-container{
+    background-color: red;
+    height: 200px;
+}
+
+/* div section beginn */
+
+h1{
+    background-color: blue;
+}
+nav{
+    background-color: aqua;
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 5px 8px;
+    background-color: green;
+}
+.div-section{
+    
+    background-color: darkred;
+    display: flex;
+
+}
+.flex-element{
+    height: 200px;
+    width: 200px;
+    color: black;
+    font-size: 2rem;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
