@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+section{
+    display: grid;
+    place-content: center;
+    width: 20vw;
+    height: 100vh;
+    
+}
+
+section:nth-child(1){
+    animation: blitz 2000ms linear infinite;
+}
+
+section:nth-child(2){
+    animation: blitz 1000ms linear infinite;
+}
+
+section:nth-child(3){
+    animation: blitz 500ms linear infinite;
+}
+
+section:nth-child(4){
+    animation: blitz 250ms linear infinite;
+}
+
+section:nth-child(5){
+    animation: blitz 125ms linear infinite;
+    
+}
+
+@keyframes blitz {
+    from {background-color: black; color: white;}
+    to {background-color: white;}
+  }

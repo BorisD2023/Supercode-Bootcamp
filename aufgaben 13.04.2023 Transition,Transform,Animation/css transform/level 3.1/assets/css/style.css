@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    
+}
+
+img{
+    max-width: 20%;
+    border-radius: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    
+}
+
+p{
+    font-size: 1.7rem;
+    width: 25vw;
+    padding: 2rem 0;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.916);
+    height: 100vh;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 60rem;
+    
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    width: 45rem;
+    height: 15rem;
+    box-shadow: 1rem 1rem 1rem rgba(24, 24, 24, 0.42);
+    transform: rotateX(5deg) rotateY(-10deg) skew(-5deg);
+    transition: all 2s ease-in-out;
+    
+    
+}
+
+.card1{
+    background-color: rgba(173, 216, 230, 0.978);
+    z-index: 2;
+    margin: 0 0 -1.8rem 0;
+}
+.card2{
+    background-color: rgb(211, 221, 144);
+    z-index: 1;
+    margin: 0 0 -1.8rem 0;
+}
+.card3{
+    background-color: rgb(225, 173, 230);
+    z-index: 2;
+    transform: rotateX(5deg) rotateY(-10deg) skew(-5deg) translateX(-2rem);
+    box-shadow: 1rem -1rem 2rem 0 rgba(24, 24, 24, 0.42);
+}
+
+.card1:hover{
+    /* transform: rotate(1deg); */
+    transform: rotateX(5deg) rotateY(-5deg) skew(-5deg) translateX(2rem);
+    transform-origin: 0% 80%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.card2:hover{
+    /* transform: rotate(1deg); */
+    transform: rotateX(5deg) rotateY(-5deg) skew(-5deg) translateX(2rem);
+    transform-origin: 0% 80%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.card3:hover{
+    /* transform: rotate(1deg); */
+    transform: rotateX(5deg) rotateY(-5deg) skew(-5deg) translateX(2rem);
+    transform-origin: 0% 80%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}

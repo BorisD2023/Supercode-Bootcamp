@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    color: white;
+}
+
+section{
+    height: 60rem;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: space-evenly;
+    background-color: lightgrey;
+    
+}
+
+div{
+    background-color: rgb(86, 208, 86);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 1rem;
+    transition: all 1s ease-in-out;
+}
+
+.translate:hover{
+    transform: translate(5rem, 7rem);
+}
+
+.translatex:hover{
+    transform: translateX(-7rem);
+}
+
+.translatey:hover{
+    transform: translateY(7rem);
+}
+
+.rotate:hover{
+    transform: rotate(45deg)
+}
+
+.scale:hover{
+    transform: scale(1.7);
+}
+
+.skew:hover{
+    transform: skew(30deg);
+}
+

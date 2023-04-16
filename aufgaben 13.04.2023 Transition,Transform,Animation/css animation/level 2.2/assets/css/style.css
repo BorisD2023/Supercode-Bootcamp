@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    height: 100vh;
+    position: relative;
+}
+
+div{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 30rem;
+    animation: move 6s infinite ease-in-out;
+    position: absolute;
+
+}
+
+div:active{
+    animation-play-state: paused;
+}
+
+@keyframes move{
+    0%,100% {
+        background-color: rgb(22, 227, 22);
+    }
+
+    25%{
+        background-color: rgb(227, 66, 30);
+        transform: translateX(70rem);
+    }
+
+    50%{
+        background-color: rgb(42, 54, 234);
+        transform: translate(70rem, 70rem);
+    }
+    
+    75%{
+        background-color: rgb(236, 210, 14);
+        transform: translate(0, 70rem);
+    }
+}

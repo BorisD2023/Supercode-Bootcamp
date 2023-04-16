@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 50vw;
+    margin: 15rem 25rem;
+}
+
+div{
+    background-color: red;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2rem;
+    transition: all 1s ease-in-out;
+    
+}
+
+div:hover{
+    transform: translate(25rem, 15rem) scale(1.5) rotate(90deg);
+    transform-origin: -5% 5%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}

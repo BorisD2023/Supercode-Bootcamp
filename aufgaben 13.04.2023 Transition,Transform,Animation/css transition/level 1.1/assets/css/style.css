@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    width: 50rem;
+    height: 20vh;
+    margin: 5rem auto;
+    border: 2px solid black;
+}
+div{
+    background-color: red;
+    height: 17vh;
+    width: 10rem;
+    transition: width 2s ease-in-out;
+    margin: 10px 10px;
+}
+div:hover{
+    width: 48rem;
+}

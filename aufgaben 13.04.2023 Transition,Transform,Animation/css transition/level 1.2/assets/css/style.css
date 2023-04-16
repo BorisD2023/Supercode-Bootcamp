@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 75rem;
+    height: 30rem;
+    margin: 10rem auto;
+    border: 3px solid black;
+    
+}
+
+section{
+    background-color: rgb(176, 172, 172);
+    position: relative;
+    height: 22rem;
+}
+
+div{
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+    margin: 5px 5px;
+    position: absolute;
+    left: 0;
+    transition: left 1s;
+}
+
+
+.green{
+    background-color: green;
+    top: 11rem;
+    transition-delay: 1s;
+}
+
+section:hover div {
+    left: 85.5%;
+  }
