@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+section{
+    
+    background: linear-gradient(232deg, rgba(219,5,235,1) 8%, rgba(157,29,218,1) 55%, rgba(82,35,240,0.9539641943734015) 87%);
+    border: 2px solid black;
+    margin: 5rem auto;
+    width: 20rem;
+    min-height: 30rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
+p{
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.left-site{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3px;
+}
+
+.right-site{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3px;
+}
+
+input{
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label{
+    line-height: 22px;
+    
+}
+
+input[type=submit] {
+    margin-top: 5px;
+    border: 6px solid rgb(105, 167, 228);
+    border-radius: 3px;
+    padding: 2px 10px;
+}
+
+p{
+    line-height: 3px;
+    font-size: 20px;
+}
+
+section p:nth-of-type(2):after{
+    content: " Jahre";
+} */

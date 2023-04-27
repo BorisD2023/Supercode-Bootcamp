@@ -1,0 +1,21 @@
+label{
+    display: block;
+}
+
+input{
+    display: block;
+    
+}
+
+input[type="submit"]{
+    margin: 10px 0;
+}
+
+p{
+    font-size: 30px;
+    line-height: 1px;
+}
+
+p::before{
+    content: "Alter: ";
+}
