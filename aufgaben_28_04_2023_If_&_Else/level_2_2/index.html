@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>conditional-statements level 2.3</title>
+    <title>conditional-statements level 2.2</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <main>
-        <form >
-            <label for="number">Zufallszahl</label>
-            <input type="number" id="number">
-            <input type="button" value="Rechnen" onclick="multiply(-27)">
+        <form>
+            <div class="aqi">
+                <p>AQI:</p>
+            </div>
+            <input type="range" id="slider" min="0" max="150" onchange="checkAirQuality()">
         </form>
+        
+        <div class="output">
+            <p>Level of health concern:</p>
+            <p>Level of health concern:</p>
+        </div>
     </main>
     <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
