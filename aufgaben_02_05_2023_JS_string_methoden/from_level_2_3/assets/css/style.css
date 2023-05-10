@@ -1,0 +1,18 @@
+.highlight {
+    background-color: yellow;
+    }
+
+/* .textArea {
+    background-color: yellow;
+    } */
+
+/* span {
+    background-color: yellow;
+    } */
+    
+    form {
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    }
+    
