@@ -1,0 +1,46 @@
+@font-face {
+    font-family: digital;
+    src: url("../fonts/digital-7.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    color: white;
+    font-family: "digital",Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 20vh;
+    margin: 5rem auto;
+    gap: 1rem;
+    width: 60vw;
+    border-radius: 5rem ;
+}
+
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+}
