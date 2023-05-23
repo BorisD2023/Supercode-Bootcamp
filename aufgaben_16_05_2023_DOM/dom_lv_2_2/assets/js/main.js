@@ -1,28 +1,12 @@
+const numbOutput = document.querySelector(".output");
+const keyOutput = document.querySelector(".key");
+const keyCodeOutput = document.querySelector(".keyCode");
+const codeOutput = document.querySelector(".code");
 
+document.querySelector("html").addEventListener('keydown', () =>{
+    numbOutput.innerHTML = event.which;
+    keyCodeOutput.innerHTML = event.which;
+    keyOutput.innerHTML = event.key;
+    codeOutput.innerHTML = event.code;
+})
 
-// const changeMeBtn = document.getElementById("navChange");
-// const navHome = document.getElementById("navHome"); 
-
-
-// function reverse(s){
-//     return s.split("").reverse().join("");
-// }
-
-
-// changeMeBtn.addEventListener('click', (e) => {
-//     e.preventDefault();
-    
-//     let textHome = navHome.textContent;
-//     textHome = reverse(textHome);
-    
-//     navHome.style.backgroundColor = "pink";
-//     navHome.style.color = "black";
-//     navHome.innerHTML = textHome;
-// });
-// // *============= Alternative
-// // changeMeBtn.addEventListener("click", () => {
-// //     navHome.style.backgroundColor = "pink";
-// //     navHome.style.color = "black";
-// //     navHome.innerText = "emoH";
-// //     navHome.style.fontFamily = "Arial";
-// //   });
