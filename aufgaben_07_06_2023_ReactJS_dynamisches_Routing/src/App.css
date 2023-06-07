@@ -1,0 +1,52 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.App {
+ text-align: center;
+ padding: 20px;
+}
+
+nav {
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.grid {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 20px;
+}
+
+.grid-item {
+ background-color: lightgray;
+ padding: 40px;
+ text-align: center;
+}
+
+.detail-car{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 2px 2px;
+  border-radius: 10px;
+}
+
+p{
+  margin-bottom: 5px;
+}
+
+h1{
+  margin-bottom: 5px;
+}
+
+.App a{
+  background-color: white;
+  color: purple;
+}
